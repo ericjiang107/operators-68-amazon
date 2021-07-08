@@ -22,7 +22,7 @@
 
     <!-- Beginning of our form area-->
     <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-4 offset-md-4">  <!-- column creation 4 with offset -->
             <fieldset class="center-span">
                 <h2>Sign In</h2>
                 <form action="">
@@ -30,20 +30,53 @@
                     <input type="email" name='email' id='email' placeholder="Enter Email">
 
                     <label for="password">Password</label>
+                    <span class="forgotpass"><a href="#">Forgot Password</a></span>
                     <input type="password" name='password' id="password" placeholder="Enter Password">
 
                     <input type="submit" value="Continue">
                 </form>
                 <!-- Need Help goes here -->
-
-
+                <a href =""> <!-- can leave href empty as it will go no where -->
+                    <p class = "need-help">&#129170; Need Help?</p>
+                </a> 
             </fieldset>
+            <!-- New to amazon area -->
+            <div class="other-span">
+                <h6 class="other-span">
+                    <span> <!-- span is an inline tool; similar to a seperator when styling something specific within a sentence-->
+                        New to Amazon?
+                    </span>
+                </h6>
+                <button> Create your Amazon Account </button>
+            </div>
         </div>
+        <!-- footer section -->
+        <footer class="col-md-12"> <!-- gives 12 column -->
+            <div class="col-md-4 offset-md-4" id="footerElem">
+                <div class="other-span">
+                    <a href="">
+                        <p>
+                            Conditions of use
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            Privacy Policy
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            Help
+                        </p>
+                    </a>
+                </div>
+                <p>
+                    &copy; 1996-2021, Operators-68, inc
+                </p>
+            </div>
+        </footer>
     </div>
-    <!-- Beginning of new to amazon section -->
 
-    <!-- Create an account button section -->
 
-    <!-- footer section -->
 </body>
 </html>

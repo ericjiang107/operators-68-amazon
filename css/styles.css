@@ -12,7 +12,6 @@ div{
 }
 
 .center-span{
-    
     margin: 0 auto;
 }
 
@@ -40,4 +39,65 @@ form input{
 form input[type="submit"]{
     background-color: #f7c548;
     font-size: 90%;
+}
+
+a {
+/* the transform moves something to the left or right a certain amount */
+    text-decoration: none;
+}
+
+h6,button { /* the comma helps target multiple things or want another element to share this specific styling*/
+    width: 75%;
+    text-align: center;
+}
+
+h6 {
+    color: gray;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin: 30px;
+}
+
+span {
+    background-color: white; /* super imposes the line to white so it looks like its going through the "new to amazon" text */
+    color: gray;
+    padding: 0 10px; 
+}
+
+.other-span{
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 90%;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: gainsboro;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 2px solid gray;
+}
+
+#footerElem>div>a>p { /* the > means direct descandant */
+    text-align: center;
+    padding: 10px 4px 5px 0;
+    display: inline;
+}
+
+#footerElem>p {
+    font-size: 85%;
+    padding: 2px;
+    text-align: center;
+}
+
+.forgotpass {
+    position: relative;
+    bottom: 0vh; /*vh means view height and vw means view width */
+    right: -12.2vw;
+    font-size: 90%
 }
